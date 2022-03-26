@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "fastify": "3.2",
+    "fastify-gql": "^5.8.2",
     "node-fetch": "2.6"
   }
 }
